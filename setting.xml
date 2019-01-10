@@ -157,10 +157,10 @@ under the License.
     </mirror>
      -->
     <mirror>
-      <id>alimaven</id>
-      <mirrorOf>central</mirrorOf>
-      <name>aliyun maven</name>
-      <url>http://maven.aliyun.com/nexus/content/groups/public/</url>
+      <id>Nexus osc</id>
+      <mirrorOf>*</mirrorOf>
+      <name>Nexus osc</name>
+      <url>http://maven.oschina.net/content/groups/public/</url>
     </mirror>
   </mirrors>
 
@@ -258,13 +258,13 @@ under the License.
           </snapshots>
           <id>central</id>
           <name>libs-releases</name>
-          <url>http://maven.aliyun.com/nexus/content/groups/public/</url>
+          <url>http://maven.oschina.net/content/groups/public/</url>
         </repository>
         <repository>
           <snapshots />
           <id>snapshots</id>
           <name>libs-snapshots</name>
-          <url>http://maven.aliyun.com/nexus/content/groups/public/</url>
+          <url>http://maven.oschina.net/content/groups/public/</url>
         </repository>
       </repositories>
       <pluginRepositories>
@@ -274,13 +274,13 @@ under the License.
           </snapshots>
           <id>central</id>
           <name>plugins-releases</name>
-          <url>http://maven.aliyun.com/nexus/content/groups/public/</url>
+          <url>http://maven.oschina.net/content/groups/public/</url>
         </pluginRepository>
         <pluginRepository>
           <snapshots />
           <id>snapshots</id>
           <name>plugins-snapshots</name>
-          <url>http://maven.aliyun.com/nexus/content/groups/public/</url>
+          <url>http://maven.oschina.net/content/groups/public/</url>
         </pluginRepository>
       </pluginRepositories>
       <id>artifactory</id>
