@@ -51,7 +51,7 @@ under the License.
     <localRepository>/path/to/local/repo</localRepository>
     -->
     <!--自定义本地仓库路径-->
-    <localRepository>E:\JAVA\Maven</localRepository>
+    <localRepository>./m2/repo</localRepository>
     <!-- interactiveMode
      | This will determine whether maven prompts you when it needs input. If set to false,
      | maven will use a sensible default value, perhaps based on some other setting, for
