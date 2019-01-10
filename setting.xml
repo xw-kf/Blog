@@ -113,6 +113,13 @@
     </mirror>
      -->
     <mirror>
+      <id>alimaven</id>
+      <mirrorOf>central</mirrorOf>
+      <name>aliyun maven</name>
+      <url>http://maven.aliyun.com/nexus/content/groups/public/</url>
+    </mirror>
+          <!--
+<mirror>
       <id>Nexus osc</id>
       <mirrorOf>central</mirrorOf>
       <name>Nexus osc</name>
@@ -124,6 +131,7 @@
         <name>Nexus osc thirdparty</name>
         <url>http://maven.oschina.net/content/repositories/thirdparty/</url>
     </mirror>
+          -->
   </mirrors>
 
   <!-- profiles
@@ -212,6 +220,7 @@
       </properties>
     </profile>
     -->
+    <!--
     <id>jdk-1.4</id>
  
     <activation>
@@ -244,6 +253,7 @@
             </snapshots>
         </pluginRepository>
     </pluginRepositories>
+    -->
   </profiles>
 
   <!-- activeProfiles
