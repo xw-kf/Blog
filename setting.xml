@@ -156,6 +156,9 @@
    |
    |-->
   <profiles>
+            <properties> 
+            <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding> 
+        </properties>
     <!-- profile
      | Specifies a set of introductions to the build process, to be activated using one or more of the
      | mechanisms described above. For inheritance purposes, and to activate profiles via <activatedProfiles/>
